@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+        <div id="container">
+                <div id="navigation">
+                        <div id="logo">
+                                <img src="logo.png" alt="logo">
+                        </div>
+                        <div id="menuIcon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <nav id="firstNav">
+                                <ul>
+                                        <li>
+                                                <a href="#">
+                                                        <i class="fa-solid fa-scroll-torah"></i>
+                                                        <p>Home</p>
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="#">
+                                                        <i class="fa-solid fa-chart-pie"></i>
+                                                        <p> Recruitment</p>
+                                                </a>
+                                                <ul>
+                                                        <li><a href="">Transfer</a></li>
+                                                        <li><a href="">Trainees</a></li>
+                                                        <li><a href="">Vacant Posts</a></li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <a href="#">
+                                                        <i class="fa-solid fa-scroll-torah"></i>
+                                                        <p> Performance</p>
+
+                                                </a>
+                                        </li>
+                                        <li>
+                                                <a href="#">
+                                                        <i class="fa-solid fa-scroll-torah"></i>
+                                                        <p>Payment</p>
+
+                                                </a>
+                                        </li>
+                                </ul>
+                                <a href="">
+                                        <i class="fa-solid fa-scroll-torah"></i>
+                                        <p>Logout</p>
+                                </a>
+                        </nav>
+                </div>
+                <div id="body">
+                        <div id="heading">
+                                <div>
+                                        <p>School Manager/Dashboard / Recruitments / New Vacant </p>
+                                        <p>Posts</p>
+                                </div>
+                                <div id="leftHeading">
+                                        <div>
+                                                <i class="fa-solid fa-bell"></i>
+                                        </div>
+                                        <div>
+                                                <img src="profile.jpg" alt="profile" />
+                                        </div>
+                                </div>
+                        </div>
+                        <div id="new">
+                                <p>Posts New Vacant</p>
+                        </div>
+                        <main>
+                                <form>
+                                        <div>
+                                                <label for="qualification">Qualification</label>
+                                                <input type="text" id="qualification" placeholder="Giannis Atentecompu"
+                                                        name="qualification" />
+                                        </div>
+                                        <div>
+                                                <label for="Position">Position</label>
+                                                <input type="text" id="Position" placeholder="Position"
+                                                        name="Position" />
+                                        </div>
+                                        <div>
+                                                <label for="Trade">Trade</label>
+                                                <select name="trade" id="modules">
+                                                        <option selected value="culinaryArts">culinaryArts</option>
+                                                        <option value="culinaryArts">culinaryArts</option>
+                                                        <option value="culinaryArts">culinaryArts</option>
+                                                </select>
+                                        </div>
+                                        <div>
+                                                <label for="modules">Modules</label>
+                                                <select name="modules" id="modules">
+                                                        <option selected value="Milk">Milk</option>
+                                                        <option value="Milk">Milk</option>
+                                                        <option value="Milk">Milk</option>
+                                                </select>
+                                        </div>
+                                        <div>
+                                                <label for="Specialization">Specialization</label>
+                                                <input type="text" id="Specialization" placeholder="Specialization"
+                                                        name="Specialization" />
+                                        </div>
+                                        <div>
+                                                <label for="traines">Number of Trainees</label>
+                                                <input type="number" id="traines" name="traines" />
+                                        </div>
+                                        <div>
+                                                <label for="Reason">Reason</label>
+                                                <select name="Reason" id="Reason">
+                                                        <option selected value="Dead">Dead</option>
+                                                        <option value="Dead">Dead</option>
+                                                        <option value="Dead">Dead</option>
+                                                </select>
+                                        </div>
+                                        <div>
+                                                <label for="Description">Description</label>
+                                                <input type="text" id="Description" placeholder="Description"
+                                                        name="Description" />
+                                        </div>
+                                        <input type="submit" value="Post a Vacancy" />
+                                </form>
+                        </main>
+                </div>
+        </div>
+</body>
+
+</html>

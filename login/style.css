@@ -1,0 +1,92 @@
+*{
+        border: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+#container{
+        background-color: rgb(233, 126, 26);
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        padding: 0px 100px;
+}
+
+#right{
+        font-size: 64px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        display: flex;
+        width: 50%;
+}
+
+#right>#lastPart{
+      color: white;
+}
+
+#left{
+        background-color: white;
+        text-align: center;
+        padding: 5% 20px;
+        border-radius: 20px;
+        width: 50%;
+}
+
+#left>form>p:nth-child(1),#left>form>p:nth-child(3){
+        color: gray;
+        margin-bottom: 5%;
+}
+
+#left>form>h3{
+        margin: 4% 0;
+}
+
+#left>form>div{
+        margin: 3% 0;
+}
+
+#left>form>div>label{
+        float: left;
+}
+#left>form>div>div{
+        display: flex;
+        justify-content: space-between;
+}
+#left>form>div>div>a{
+        text-decoration: none;
+        color: gray;
+}
+#left>form>div>input{
+        width: 100%;
+        padding: 3%;
+        border: 2px solid gray;
+        border-radius: 10px;
+}
+#left>form>input[type="submit"]{
+        background-color: rgb(233, 126, 26);
+        width: 100%;
+        padding: 3%;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 10%;
+}
+#left a{
+        text-decoration: none;
+}
+
+@media only screen and (max-width: 840px) {
+        #container{
+                display: block;
+                padding: 3%;
+        }
+        #left{
+                width: 100%;
+        }
+        #right{
+                width: 100%;
+        }
+}
+
